@@ -92,7 +92,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		background-image: url(/images/sun-pattern.png);
+		/* background-image: url(https://cdn.jsdelivr.net/gh/Aliroe/static@main/ronnie/images/sun-pattern.png); */
 	}
 
 	*, *:before, *:after {
@@ -2635,7 +2635,6 @@ input, select, textarea {
 					left: 0;
 					width: 100%;
 					height: 100%;
-					background-image: url("/images/sun-pattern.png");
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
@@ -3329,4 +3328,18 @@ input, select, textarea {
 				padding: 0 1.25em;
 			}
 
+		}
+		::selection {
+			background:#d3d3d3; 
+			color:#555;
+		}
+		
+		::-moz-selection {
+			background:#d3d3d3; 
+			color:#555;
+		}
+		
+		::-webkit-selection {
+			background:#d3d3d3; 
+			color:#555;
 		}
